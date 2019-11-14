@@ -1,1 +1,46 @@
-/home/kyle/.config/Code/User/settings.json
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Hawaii Contrast (rainglow)",
+    "cmake-tools-helper.cmake_download_path": "/home/kyle/.vscode/extensions/maddouri.cmake-tools-helper-0.2.1/cmake_download",
+    "workbench.startupEditor": "newUntitledFile",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "clangTidy.systemIncludePath": [
+        "/usr/include"
+    ],
+    "editor.fontFamily": "'Fira Code', 'Input Mono', 'Fantasque Sans Mono', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": "'ss03', 'ss06', 'ss05'",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 16,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["K"],
+            "commands": ["editor.action.showHover"]
+        }
+    ],
+    "git.enableSmartCommit": true,
+    "cmake.configureOnOpen": true,
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.bind.enter.key": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "calva.prettyPrint": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorCustomizations": {
+        "statusBar.foreground": "#000000",
+        "badge.foreground": "#000000",
+        "activityBarBadge.foreground": "#000000",
+        "extensionButton.prominentForeground": "#000000"
+    },
+    "material-icon-theme.showWelcomeMessage": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.views.search.enabled": false
+}
