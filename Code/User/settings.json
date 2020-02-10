@@ -1,6 +1,8 @@
 {
+    "c-cpp-flylint.clang.standard": ["c++11"],
+    "c-cpp-flylint.clang.extraArgs": ["-Wno-c++98-compat"],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Hawaii Contrast (rainglow)",
+    "workbench.colorTheme": "Codecourse Contrast (rainglow)",
     "cmake-tools-helper.cmake_download_path": "/home/kyle/.vscode/extensions/maddouri.cmake-tools-helper-0.2.1/cmake_download",
     "workbench.startupEditor": "newUntitledFile",
     "[cpp]": {
@@ -9,10 +11,11 @@
     "clangTidy.systemIncludePath": [
         "/usr/include"
     ],
-    "editor.fontFamily": "'Fira Code', 'Input Mono', 'Fantasque Sans Mono', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'JetBrains Mono', 'Go Mono', 'Liga Roboto Mono', 'Input Sans', 'Fantasque Sans Mono', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 16,
-    "editor.fontLigatures": "'ss03', 'ss06', 'ss05'",
+    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
     "terminal.integrated.fontSize": 16,
     "vim.normalModeKeyBindings": [
         {
@@ -32,9 +35,9 @@
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorCustomizations": {
         "statusBar.foreground": "#000000",
-        "badge.foreground": "#000000",
-        "activityBarBadge.foreground": "#000000",
-        "extensionButton.prominentForeground": "#000000"
+        // "badge.foreground": "#000000",
+        // "activityBarBadge.foreground": "#000000",
+        // "extensionButton.prominentForeground": "#000000"
     },
     "material-icon-theme.showWelcomeMessage": false,
     "gitlens.currentLine.enabled": false,
@@ -42,5 +45,28 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.statusBar.enabled": false,
     "gitlens.hovers.enabled": false,
-    "gitlens.views.search.enabled": false
+    "gitlens.views.search.enabled": false,
+    "terminal.integrated.fontFamily": "'Courier', monspace",
+    "python.formatting.provider": "black",
+    "c-cpp-flylint.flexelint.enable": false,
+    "rust.actionOnSave": "clippy",
+    "rust.mode": "rls",
+    "[rust]": {
+        "editor.defaultFormatter": "matklad.rust-analyzer"
+    },
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.rls": {
+        "useRustfmt": true
+    },
+    "rust.clippy_preference": "on",
+    "rust-analyzer.highlightingOn": true,
+    "rust-analyzer.rainbowHighlightingOn": true,
+    "rust-analyzer.enableEnhancedTyping": false,
+    "rust-analyzer.cargo-watch.command": "clippy",
+    "explorer.openEditors.visible": 0,
+    "c-cpp-flylint.clang.enable": false,
+    "window.zoomLevel": 0
 }
